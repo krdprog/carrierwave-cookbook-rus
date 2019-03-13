@@ -23,6 +23,9 @@ rails generate uploader Picture
 ```ruby
 include CarrierWave::MiniMagick
 ```
+```ruby
+storage :file
+```
 
 - Выбрать путь к файлам в store_dir
 
