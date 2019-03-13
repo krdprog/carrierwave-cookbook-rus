@@ -52,7 +52,7 @@ end
 
 **Проведём миграцию, прикрепим изображение к нашим страницам**
 
-Предположим, что у нас есть сущность Project - [инструкция, как создать сущность Project](https://github.com/krdprog/rails_help_for_novice/blob/master/README.md)
+Предположим, что у нас есть сущность Project - [инструкция, как создать сущность Project](https://github.com/krdprog/rails_essence_cookbook/)
 
 ```bash
 rails g migration add_picture_to_projects picture:string
