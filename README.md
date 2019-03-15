@@ -1,5 +1,13 @@
 # Инструкция, как работать с гемом Carrierwave (загрузка изображений в Ruby on Rails)
 
+**Требуется установленный ImageMagick:**
+
+```bash
+sudo apt-get install imagemagick
+```
+
+**Подключим гемы:**
+
 - [GitHub - carrierwaveuploader/carrierwave](https://github.com/carrierwaveuploader/carrierwave)
 - [GitHub - minimagick/minimagick](https://github.com/minimagick/minimagick)
 
