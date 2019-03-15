@@ -10,6 +10,10 @@ gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 ```
 
+```bash
+bundle install
+```
+
 **Генерация:**
 
 ```bash
