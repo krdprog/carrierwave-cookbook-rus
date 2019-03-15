@@ -76,17 +76,18 @@ class Project < ApplicationRecord
 end
 ```
 
-**Добавим в форму (в /app/views/projects/new.html.erb):**
+**Добавим в форму (в /app/views/projects/_form.html.erb):**
+
+```ruby
+<%= form_for @project, html: { multipart: true } do |f| %>
+```
+и там же добавить:
 
 ```html
 <p>
   <%= f.label :picture, 'Загрузить картинку:' %><br />
   <%= f.file_field :picture %>
 </p>
-```
-и там же добавить в строку:
-```ruby
-<%= form_for :project, html: { multipart: true },
 ```
 
 И, в контроллере /app/controllers/projects_controller.rb укажем разрешённый параметр :picture
