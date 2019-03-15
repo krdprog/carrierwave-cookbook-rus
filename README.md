@@ -80,7 +80,7 @@ end
 
 ```html
 <p>
-  <label for="project_picture">Picture:</label><br>
+  <%= f.label :picture, 'Загрузить картинку:' %><br />
   <%= f.file_field :picture %>
 </p>
 ```
